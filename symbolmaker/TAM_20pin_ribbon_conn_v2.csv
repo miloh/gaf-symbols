@@ -1,0 +1,77 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"#   ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+#   this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+#   useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	no					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	1900					
+pinwidthvertical	250					
+pinwidthhorizontal	250					
+						
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20131029					
+name	TAM_20pin_ribbon_conn					
+device	TAM_20pin_ribbon_conn					
+refdes	CONN?					
+footprint						
+description	breakout device for gantry ribbon connection					
+documentation	dev.typ.ma					
+author						
+numslots	0					
+dist-license						
+use-license						
+#slot	1					
+#slotdef	1:					
+#slotdef	2:					
+#slotdef	3:					
+#slotdef	4:					
+#comment						
+#comment						
+#comment						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+1	1	pwr	line	l	E0M3_black	E0M3_black
+2	2	pwr	line	l	E0M4_green	E0M4_green
+3	3	pwr	line	l	E0M1_red	E0M1_red
+4	4	pwr	line	l	E0M2_blue	E0M2_blue
+5	5	pwr	line	l	gnd	gnd
+6	6	pas	line	l	E1M3_black	E1M3_black
+7	7	pwr	line	l	E1M4_green	E1M4_green
+8	8	pwr	line	l	E1M1_red	E1M1_red
+9	9	pwr	line	l	E1M2_blue	E1M2_blue
+10	10	pwr	line	l	gnd	gnd
+11	11	pwr	line	r	fan1	fan1
+12	12	in	line	r	therm1	therm1
+13	13	pwr	line	r	fan0	fan0
+14	14	in	line	r	therm0	therm0
+15	16	io	line	r	fan1_1	fan1_1
+16	15	io	line	r	fan0_1	fan0_1
+17	17	pwr	line	r	gnd	gnd
+18	18	io	line	r	aux0-a	aux0-a
+19	19	io	line	r	aux0-b	aux0-b
+20	20	pwr	line	r	5v_vcc	5v_vcc
