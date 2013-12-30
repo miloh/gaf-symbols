@@ -1,4 +1,4 @@
-v 20121123 1
+v 20111231 2
 P 100 3350 400 3350 1 0 0
 {
 T 300 3400 5 8 1 1 0 6 1
@@ -6,7 +6,7 @@ pinnumber=1
 T 300 3300 5 8 0 1 0 8 1
 pinseq=1
 T 450 3350 9 8 1 1 0 0 1
-pinlabel=E0M3_black
+pinlabel=E0M_A0
 T 450 3350 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -17,7 +17,7 @@ pinnumber=2
 T 300 3050 5 8 0 1 0 8 1
 pinseq=2
 T 450 3100 9 8 1 1 0 0 1
-pinlabel=E0M4_green
+pinlabel=E0M_A1
 T 450 3100 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -28,7 +28,7 @@ pinnumber=3
 T 300 2800 5 8 0 1 0 8 1
 pinseq=3
 T 450 2850 9 8 1 1 0 0 1
-pinlabel=E0M1_red
+pinlabel=E0M_B0
 T 450 2850 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -39,7 +39,7 @@ pinnumber=4
 T 300 2550 5 8 0 1 0 8 1
 pinseq=4
 T 450 2600 9 8 1 1 0 0 1
-pinlabel=E0M2_blue
+pinlabel=E0M_B1
 T 450 2600 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -61,7 +61,7 @@ pinnumber=6
 T 300 2050 5 8 0 1 0 8 1
 pinseq=6
 T 450 2100 9 8 1 1 0 0 1
-pinlabel=E1M3_black
+pinlabel=E1M_A0
 T 450 2100 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -72,7 +72,7 @@ pinnumber=7
 T 300 1800 5 8 0 1 0 8 1
 pinseq=7
 T 450 1850 9 8 1 1 0 0 1
-pinlabel=E1M4_green
+pinlabel=E1M4_A1
 T 450 1850 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -83,7 +83,7 @@ pinnumber=8
 T 300 1550 5 8 0 1 0 8 1
 pinseq=8
 T 450 1600 9 8 1 1 0 0 1
-pinlabel=E1M1_red
+pinlabel=E1M1_B0
 T 450 1600 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -94,7 +94,7 @@ pinnumber=9
 T 300 1300 5 8 0 1 0 8 1
 pinseq=9
 T 450 1350 9 8 1 1 0 0 1
-pinlabel=E1M2_blue
+pinlabel=E1M2_B1
 T 450 1350 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -116,7 +116,7 @@ pinnumber=11
 T 300 800 5 8 0 1 0 8 1
 pinseq=11
 T 450 850 9 8 1 1 0 0 1
-pinlabel=XM_black
+pinlabel=XM_A0
 T 450 850 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -127,7 +127,7 @@ pinnumber=12
 T 300 550 5 8 0 1 0 8 1
 pinseq=12
 T 450 600 9 8 1 1 0 0 1
-pinlabel=XM_green
+pinlabel=XM_A1
 T 450 600 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -138,7 +138,7 @@ pinnumber=13
 T 300 300 5 8 0 1 0 8 1
 pinseq=13
 T 450 350 9 8 1 1 0 0 1
-pinlabel=XM_red
+pinlabel=XM_B0
 T 450 350 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -149,7 +149,7 @@ pinnumber=14
 T 2400 3300 5 8 0 1 0 2 1
 pinseq=14
 T 2250 3350 9 8 1 1 0 6 1
-pinlabel=XM_blue
+pinlabel=XM_B1
 T 2250 3350 5 8 0 1 0 8 1
 pintype=pwr
 }
@@ -204,7 +204,7 @@ pinnumber=19
 T 2400 2050 5 8 0 1 0 2 1
 pinseq=19
 T 2250 2100 9 8 1 1 0 6 1
-pinlabel=aux1-a
+pinlabel=fan1_1
 T 2250 2100 5 8 0 1 0 8 1
 pintype=pwr
 }
@@ -215,7 +215,7 @@ pinnumber=20
 T 2400 1800 5 8 0 1 0 2 1
 pinseq=20
 T 2250 1850 9 8 1 1 0 6 1
-pinlabel=aux1-b
+pinlabel=fan0_1
 T 2250 1850 5 8 0 1 0 8 1
 pintype=io
 }
@@ -286,14 +286,14 @@ T 2250 350 5 8 0 1 0 8 1
 pintype=pwr
 }
 B 400 100 1900 3500 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-T 2300 3700 8 10 1 1 0 6 1
+T 1025 3825 8 10 1 1 0 6 1
 refdes=CONN?
-T 400 3700 9 10 1 0 0 0 1
+T 375 3650 9 10 1 0 0 0 1
 TAM_26pin_ribbon_conn
 T 400 3900 5 10 0 0 0 0 1
 device=TAM_26pin_ribbon_conn
 T 400 4100 5 10 0 0 0 0 1
-footprint=DIN41651_26S
+footprint=EHF-113-01-XX-D
 T 400 4300 5 10 0 0 0 0 1
 documentation=dev.typ.ma
 T 400 4500 5 10 0 0 0 0 1
