@@ -138,7 +138,7 @@ pinnumber=13
 T 2400 2050 5 8 0 1 0 2 1
 pinseq=13
 T 2250 2100 9 8 1 1 0 6 1
-pinlabel=fan0
+pinlabel=fan1_1
 T 2250 2100 5 8 0 1 0 8 1
 pintype=pwr
 }
@@ -149,7 +149,7 @@ pinnumber=14
 T 2400 1800 5 8 0 1 0 2 1
 pinseq=14
 T 2250 1850 9 8 1 1 0 6 1
-pinlabel=therm0
+pinlabel=fan0_1
 T 2250 1850 5 8 0 1 0 8 1
 pintype=in
 }
@@ -160,7 +160,7 @@ pinnumber=15
 T 2400 1550 5 8 0 1 0 2 1
 pinseq=15
 T 2250 1600 9 8 1 1 0 6 1
-pinlabel=fan1_1
+pinlabel=gnd
 T 2250 1600 5 8 0 1 0 8 1
 pintype=io
 }
@@ -171,7 +171,7 @@ pinnumber=16
 T 2400 1300 5 8 0 1 0 2 1
 pinseq=16
 T 2250 1350 9 8 1 1 0 6 1
-pinlabel=fan0_1
+pinlabel=fan0
 T 2250 1350 5 8 0 1 0 8 1
 pintype=io
 }
@@ -182,7 +182,7 @@ pinnumber=17
 T 2400 1050 5 8 0 1 0 2 1
 pinseq=17
 T 2250 1100 9 8 1 1 0 6 1
-pinlabel=gnd
+pinlabel=therm0
 T 2250 1100 5 8 0 1 0 8 1
 pintype=pwr
 }
