@@ -116,7 +116,7 @@ pinnumber=11
 T 2400 2550 5 8 0 1 0 2 1
 pinseq=11
 T 2250 2600 9 8 1 1 0 6 1
-pinlabel=fan1
+pinlabel=5v_vcc
 T 2250 2600 5 8 0 1 0 8 1
 pintype=pwr
 }
@@ -127,7 +127,7 @@ pinnumber=12
 T 2400 2300 5 8 0 1 0 2 1
 pinseq=12
 T 2250 2350 9 8 1 1 0 6 1
-pinlabel=therm1
+pinlabel=fan1
 T 2250 2350 5 8 0 1 0 8 1
 pintype=in
 }
@@ -138,7 +138,7 @@ pinnumber=13
 T 2400 2050 5 8 0 1 0 2 1
 pinseq=13
 T 2250 2100 9 8 1 1 0 6 1
-pinlabel=fan1_1
+pinlabel=aux0-b
 T 2250 2100 5 8 0 1 0 8 1
 pintype=pwr
 }
@@ -149,7 +149,7 @@ pinnumber=14
 T 2400 1800 5 8 0 1 0 2 1
 pinseq=14
 T 2250 1850 9 8 1 1 0 6 1
-pinlabel=fan0_1
+pinlabel=fan1_1
 T 2250 1850 5 8 0 1 0 8 1
 pintype=in
 }
@@ -171,7 +171,7 @@ pinnumber=16
 T 2400 1300 5 8 0 1 0 2 1
 pinseq=16
 T 2250 1350 9 8 1 1 0 6 1
-pinlabel=fan0
+pinlabel=therm0
 T 2250 1350 5 8 0 1 0 8 1
 pintype=io
 }
@@ -182,7 +182,7 @@ pinnumber=17
 T 2400 1050 5 8 0 1 0 2 1
 pinseq=17
 T 2250 1100 9 8 1 1 0 6 1
-pinlabel=therm0
+pinlabel=therm1
 T 2250 1100 5 8 0 1 0 8 1
 pintype=pwr
 }
@@ -204,7 +204,7 @@ pinnumber=19
 T 2400 550 5 8 0 1 0 2 1
 pinseq=19
 T 2250 600 9 8 1 1 0 6 1
-pinlabel=aux0-b
+pinlabel=fan0_1
 T 2250 600 5 8 0 1 0 8 1
 pintype=io
 }
@@ -215,7 +215,7 @@ pinnumber=20
 T 2400 300 5 8 0 1 0 2 1
 pinseq=20
 T 2250 350 9 8 1 1 0 6 1
-pinlabel=5v_vcc
+pinlabel=fan0
 T 2250 350 5 8 0 1 0 8 1
 pintype=pwr
 }
