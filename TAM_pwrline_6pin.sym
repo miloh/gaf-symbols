@@ -28,7 +28,7 @@ pinnumber=3
 T 300 300 5 8 0 1 0 8 1
 pinseq=3
 T 450 350 9 8 1 1 0 0 1
-pinlabel=HeatRtn
+pinlabel=Vin
 T 450 350 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -50,7 +50,7 @@ pinnumber=5
 T 2100 550 5 8 0 1 0 2 1
 pinseq=5
 T 1950 600 9 8 1 1 0 6 1
-pinlabel=HeatRtn
+pinlabel=Vin
 T 1950 600 5 8 0 1 0 8 1
 pintype=pwr
 }
@@ -61,7 +61,7 @@ pinnumber=6
 T 2100 300 5 8 0 1 0 2 1
 pinseq=6
 T 1950 350 9 8 1 1 0 6 1
-pinlabel=He0
+pinlabel=HE0
 T 1950 350 5 8 0 1 0 8 1
 pintype=pwr
 }
