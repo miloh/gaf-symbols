@@ -53,7 +53,7 @@ device=WS2812B
 T 400 1800 5 10 0 0 0 0 1
 footprint=5050-4
 T 400 2000 5 10 0 0 0 0 1
-author=r. Miloh Alexander
+author=R. Miloh Alexander
 T 400 2200 5 10 0 0 0 0 1
 description=WorldSemi 5050 RGB LED verB
 T 400 2400 5 10 0 0 0 0 1
