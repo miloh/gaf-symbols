@@ -11,7 +11,7 @@
 #   useful for address ports, busses, ...						
 wordswap	yes					
 rotate_labels	no					
-sort_labels	yes					
+sort_labels	no					
 generate_pinseq	yes					
 sym_width	1400					
 pinwidthvertical	400					
@@ -55,13 +55,13 @@ use-license
 #	"if you want to write a ""\"" use ""\\"" as escape sequence"					
 #						
 #pinnr	seq	type	style	posit.	net	label
-1	1	pwr	line	r	VTG	VTG
-2	2	io	line	l	SWDIO	SWDIO
-3	3	pwr	line	r	GND	GND
-4	4	io	line	l	SWDCLK	SWDCLK
-5	5	pwr	line	r	GND	GND
-6	6	io	line	l	NC	NC
-7	7	io	line	r	NC	NC
-8	8	io	line	l	NC	NC
-9	9	pwr	line	r	GND	GND
-10	10	io	line	l	NC	NC
+1		pwr	line	l	VTG	VTG
+2		io	line	r	SWDIO	SWDIO
+3		pwr	line	l	GND	GND
+4		io	line	r	SWDCLK	SWDCLK
+5		pwr	line	l	GND	GND
+6		io	line	r	NC	NC
+7		io	line	l	NC	NC
+8		io	line	r	NC	NC
+9		pwr	line	l	GND	GND
+10		io	line	r	NC	NC
