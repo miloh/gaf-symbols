@@ -99,7 +99,13 @@ T 1950 800 5 10 0 0 270 6 1
 pinseq=9
 }
 T 1900 2300 9 12 1 1 0 6 1
-device=LT3494A
+device=LT3494-A
 T 2700 2300 9 12 1 1 0 6 1
 refdes=U?
 B 1000 1000 1900 1300 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+T 400 1800 5 10 0 0 0 0 1
+footprint=DFN8-EP
+T 400 2000 5 10 0 0 0 0 1
+author=R. Miloh Alexander
+T 400 2200 5 10 0 0 0 0 1
+description=180/350mA boost converter with low noise characteristics
