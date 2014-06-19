@@ -1,0 +1,81 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"#   ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+#   this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+#   useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	no					
+sort_labels	no					
+generate_pinseq	no					
+sym_width	2000					
+pinwidthvertical	400					
+pinwidthhorizontal	400					
+						
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	74LVC8T245					
+device						
+refdes	U?					
+footprint	24TSSOP					
+description	8-bit dual supply translating transceiver; 3-state					
+documentation	74LVC_LVCH8T245.pdf					
+author						
+numslots	0					
+dist-license						
+use-license						
+#slot	1					
+#slotdef	1:					
+#slotdef	2:					
+#slotdef	3:					
+#slotdef	4:					
+#comment						
+#comment						
+#comment						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+1	1	pwr	line	t	+3V	Vcc(a)
+2	2	in	line	t	DIR	DIR
+3	3	in	line	l	A1	A1
+4	4	in	line	l	A2	A2
+5	5	in	line	l	A3	A3
+6	6	in	line	l	A4	A4
+7	7	in	line	l	A5	A5
+8	8	in	line	l	A6	A6
+9	9	in	line	l	A7	A7
+10	10	in	line	l	A8	A8
+11	11	pwr	line	t	GND	GND
+12	12	pwr	line	b	GND	GND
+13	13	pwr	line	b	GND	GND
+14	14	out	line	r	B8	B8
+15	15	out	line	r	B7	B7
+16	16	out	line	r	B6	B6
+17	17	out	line	r	B5	B5
+18	18	out	line	r	B4	B4
+19	19	out	line	r	B3	B3
+20	20	out	line	r	B2	B2
+21	21	out	line	r	B1	B1
+22	22	in	dot	t	\_OE	\_OE
+23	23	pwr	line	r	+5V	Vcc(b)
+24	24	pwr	line	r	+5V	Vcc(b)
