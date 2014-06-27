@@ -94,12 +94,12 @@ refdes=U?
 T 400 2200 9 10 1 0 0 0 1
 SN75176A 
 T 400 2400 5 10 0 0 0 0 1
-device=max483
+device=SN75176A
 T 400 2600 5 10 0 0 0 0 1
 author=r. miloh alexander
 T 400 2800 5 10 0 0 0 0 1
-documentation=maximintegrated.com
+documentation=ti.com
 T 400 3000 5 10 0 0 0 0 1
-description=MaximIC RS-485 Transceiver with SO8/DIP8
+description=TI RS485 TXCVR in SO8/DIP8
 T 400 3200 5 10 0 0 0 0 1
 numslots=0

@@ -102,6 +102,6 @@ author=r. miloh alexander
 T 400 3000 5 10 0 0 0 0 1
 documentation=maximintegrated.com
 T 400 3200 5 10 0 0 0 0 1
-description=uMAX land pattern version of MaximIC RS-485 Transceiver
+description=uMAX land pattern ver of MAX483 RS-485 TXCVR 
 T 400 3400 5 10 0 0 0 0 1
 numslots=0
