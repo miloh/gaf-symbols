@@ -1,50 +1,50 @@
 v 20140308 2
-C 8100 8100 1 0 0 connector10-1.sym
+C 9000 11000 1 0 0 connector10-1.sym
 {
-T 10000 11100 5 10 0 0 0 0 1
+T 10900 14000 5 10 0 0 0 0 1
 device=CONNECTOR_10
-T 8200 11300 5 10 1 1 0 0 1
+T 9100 14200 5 10 1 1 0 0 1
 refdes=CONN?
 }
-C 2100 8100 1 0 1 connector8-1.sym
+C 2000 11000 1 0 1 connector8-1.sym
 {
-T 2000 11300 5 10 0 0 0 6 1
+T 1900 14200 5 10 0 0 0 6 1
 device=CONNECTOR_8
-T 2000 10700 5 10 1 1 0 6 1
+T 1900 13600 5 10 1 1 0 6 1
 refdes=CONN?
 }
-C 2100 5100 1 0 1 connector8-1.sym
+C 2000 8000 1 0 1 connector8-1.sym
 {
-T 2000 8300 5 10 0 0 0 6 1
+T 1900 11200 5 10 0 0 0 6 1
 device=CONNECTOR_8
-T 2000 7700 5 10 1 1 0 6 1
+T 1900 10600 5 10 1 1 0 6 1
 refdes=CONN?
 }
-C 2100 2100 1 0 1 connector8-1.sym
+C 2000 5000 1 0 1 connector8-1.sym
 {
-T 2000 5300 5 10 0 0 0 6 1
+T 1900 8200 5 10 0 0 0 6 1
 device=CONNECTOR_8
-T 2000 4700 5 10 1 1 0 6 1
+T 1900 7600 5 10 1 1 0 6 1
 refdes=CONN?
 }
-C 8100 2100 1 0 0 connector8-1.sym
+C 9000 5000 1 0 0 connector8-1.sym
 {
-T 8200 5300 5 10 0 0 0 0 1
+T 9100 8200 5 10 0 0 0 0 1
 device=CONNECTOR_8
-T 8200 4700 5 10 1 1 0 0 1
+T 9100 7600 5 10 1 1 0 0 1
 refdes=CONN?
 }
-C 8100 5000 1 0 0 connector8-1.sym
+C 9000 7900 1 0 0 connector8-1.sym
 {
-T 8200 8200 5 10 0 0 0 0 1
+T 9100 11100 5 10 0 0 0 0 1
 device=CONNECTOR_8
-T 8200 7600 5 10 1 1 0 0 1
+T 9100 10500 5 10 1 1 0 0 1
 refdes=CONN?
 }
-C 8500 100 1 90 0 header34-1.sym
+C 8800 800 1 90 0 header34-1.sym
 {
-T 1600 700 5 10 1 1 270 8 1
+T 1900 1400 5 10 1 1 270 8 1
 refdes=J?
-T 3900 1700 5 10 0 0 270 8 1
+T 4200 2400 5 10 0 0 270 8 1
 device=HEADER34
 }
