@@ -358,9 +358,9 @@ pintype=unknown
 T 11800 10450 5 10 0 0 0 6 1
 pinseq=0
 T 11245 10395 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=16/PH4/OC4B
 T 11395 10445 5 10 1 1 0 0 1
-pinnumber=XX
+pinnumber=7
 }
 P 11900 10100 11300 10100 1 0 0
 {
@@ -369,9 +369,9 @@ pintype=unknown
 T 11800 10150 5 10 0 0 0 6 1
 pinseq=0
 T 11245 10095 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=15/PH3/OC4A
 T 11395 10145 5 10 1 1 0 0 1
-pinnumber=0
+pinnumber=6
 }
 P 11900 9800 11300 9800 1 0 0
 {
@@ -380,9 +380,9 @@ pintype=unknown
 T 11800 9850 5 10 0 0 0 6 1
 pinseq=0
 T 11245 9795 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=5/PE3/AIN1/OC3
 T 11395 9845 5 10 1 1 0 0 1
-pinnumber=0
+pinnumber=5
 }
 P 11900 9500 11300 9500 1 0 0
 {
@@ -391,9 +391,9 @@ pintype=unknown
 T 11800 9550 5 10 0 0 0 6 1
 pinseq=0
 T 11245 9495 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=1/PG5/OC0B
 T 11395 9545 5 10 1 1 0 0 1
-pinnumber=0
+pinnumber=4
 }
 P 11900 9200 11300 9200 1 0 0
 {
@@ -402,9 +402,9 @@ pintype=unknown
 T 11800 9250 5 10 0 0 0 6 1
 pinseq=0
 T 11245 9195 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=7/PE5/INT5/OC3C
 T 11395 9245 5 10 1 1 0 0 1
-pinnumber=0
+pinnumber=3
 }
 P 11900 8900 11300 8900 1 0 0
 {
@@ -413,9 +413,9 @@ pintype=unknown
 T 11800 8950 5 10 0 0 0 6 1
 pinseq=0
 T 11245 8895 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=6/PE4/INT4/OC3B
 T 11395 8945 5 10 1 1 0 0 1
-pinnumber=0
+pinnumber=2
 }
 P 11900 8600 11300 8600 1 0 0
 {
@@ -424,9 +424,9 @@ pintype=unknown
 T 11800 8650 5 10 0 0 0 6 1
 pinseq=0
 T 11245 8595 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=3/PE1/TXD0
 T 11395 8645 5 10 1 1 0 0 1
-pinnumber=0
+pinnumber=1
 }
 P 11900 8300 11300 8300 1 0 0
 {
@@ -435,7 +435,7 @@ pintype=unknown
 T 11800 8350 5 10 0 0 0 6 1
 pinseq=0
 T 11245 8295 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=2/PE0/PCINT8/RXD0
 T 11395 8345 5 10 1 1 0 0 1
 pinnumber=0
 }
@@ -448,7 +448,7 @@ pinseq=0
 T 11245 13395 9 10 1 1 0 6 1
 pinlabel=unknown
 T 11395 13445 5 10 1 1 0 0 1
-pinnumber=0
+pinnumber=XX
 }
 P 11900 13100 11300 13100 1 0 0
 {
@@ -904,7 +904,7 @@ pinnumber=0
 B 1500 8000 2200 2600 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
 B 1500 5000 2200 2600 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
 B 1500 11000 2200 2600 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
-B 10100 8000 1200 2700 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
 B 10100 11100 1200 3300 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
 B 3900 1600 5200 2400 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
 B 9300 5000 2000 2600 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+B 9300 8000 2000 2600 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
