@@ -446,9 +446,9 @@ pintype=unknown
 T 11800 13950 5 10 0 0 0 6 1
 pinseq=0
 T 11245 13895 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=43/PD0/INT0/SCL
 T 11395 13945 5 10 1 1 0 0 1
-pinnumber=X1
+pinnumber=21
 }
 P 11900 13600 11300 13600 1 0 0
 {
@@ -457,9 +457,9 @@ pintype=unknown
 T 11800 13650 5 10 0 0 0 6 1
 pinseq=0
 T 11245 13595 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=44/PD1/INT1/SDA
 T 11395 13645 5 10 1 1 0 0 1
-pinnumber=X2
+pinnumber=20
 }
 P 11900 13300 11300 13300 1 0 0
 {
@@ -468,9 +468,9 @@ pintype=unknown
 T 11800 13350 5 10 0 0 0 6 1
 pinseq=0
 T 11245 13295 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=98/AREF
 T 11395 13345 5 10 1 1 0 0 1
-pinnumber=X3
+pinnumber=AREF
 }
 P 11900 13000 11300 13000 1 0 0
 {
@@ -479,9 +479,9 @@ pintype=unknown
 T 11800 13050 5 10 0 0 0 6 1
 pinseq=0
 T 11245 12995 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=GND
 T 11395 13045 5 10 1 1 0 0 1
-pinnumber=X4
+pinnumber=GND
 }
 P 11900 12700 11300 12700 1 0 0
 {
@@ -490,9 +490,9 @@ pintype=unknown
 T 11800 12750 5 10 0 0 0 6 1
 pinseq=0
 T 11245 12695 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=26/PB7/PCINT7/OC1C
 T 11395 12745 5 10 1 1 0 0 1
-pinnumber=X5
+pinnumber=13
 }
 P 11900 12400 11300 12400 1 0 0
 {
@@ -501,9 +501,9 @@ pintype=unknown
 T 11800 12450 5 10 0 0 0 6 1
 pinseq=0
 T 11245 12395 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=25/PB6/PCINT6/OC1B
 T 11395 12445 5 10 1 1 0 0 1
-pinnumber=X6
+pinnumber=12
 }
 P 11900 12100 11300 12100 1 0 0
 {
@@ -512,9 +512,9 @@ pintype=unknown
 T 11800 12150 5 10 0 0 0 6 1
 pinseq=0
 T 11245 12095 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=24/PB5/PCINT5/OC1A
 T 11395 12145 5 10 1 1 0 0 1
-pinnumber=X7
+pinnumber=11
 }
 P 11900 11800 11300 11800 1 0 0
 {
@@ -523,9 +523,9 @@ pintype=unknown
 T 11800 11850 5 10 0 0 0 6 1
 pinseq=0
 T 11245 11795 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=23/PB4/PCINT4/OC2A
 T 11395 11845 5 10 1 1 0 0 1
-pinnumber=X8
+pinnumber=10
 }
 P 11900 11600 11300 11600 1 0 0
 {
@@ -534,9 +534,9 @@ pintype=unknown
 T 11800 11650 5 10 0 0 0 6 1
 pinseq=0
 T 11245 11595 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=18/PH6/OC2B
 T 11395 11645 5 10 1 1 0 0 1
-pinnumber=X9
+pinnumber=9
 }
 P 11900 11300 11300 11300 1 0 0
 {
@@ -545,9 +545,9 @@ pintype=unknown
 T 11800 11350 5 10 0 0 0 6 1
 pinseq=0
 T 11245 11295 9 10 1 1 0 6 1
-pinlabel=unknown
+pinlabel=17/PH5/OC4C
 T 11395 11345 5 10 1 1 0 0 1
-pinnumber=X10
+pinnumber=8
 }
 P 8700 4300 8700 3700 1 0 0
 {
