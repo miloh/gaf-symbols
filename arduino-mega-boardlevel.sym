@@ -912,3 +912,9 @@ T 6050 4350 9 12 1 0 90 0 1
 Bottom Header
 T 3850 7100 9 10 1 0 0 0 1
 Upper Right Corner
+T 4500 7100 9 10 0 0 0 0 1
+footprint=arduino-mega-board
+T 4500 7400 9 10 0 0 0 0 1
+documentation=github.com/miloh/gaf-symbols.git
+T 4500 7800 9 10 0 0 0 0 1
+description=a hard symbol for use with dcvs prototypes and shield designs using the arduino mega2560
