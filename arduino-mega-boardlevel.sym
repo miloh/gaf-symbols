@@ -556,7 +556,7 @@ pintype=unknown
 T 8750 4200 5 10 0 0 90 8 1
 pinseq=0
 T 8695 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=ADC13/PCINT21/PK5/84
 T 8745 3795 5 10 1 1 90 2 1
 pinnumber=22
 }
@@ -567,7 +567,7 @@ pintype=unknown
 T 8450 4200 5 10 0 0 90 8 1
 pinseq=0
 T 8395 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=ADC15/PCINT23/PK7/82
 T 8445 3795 5 10 1 1 90 2 1
 pinnumber=24
 }
@@ -578,7 +578,7 @@ pintype=unknown
 T 8150 4200 5 10 0 0 90 8 1
 pinseq=0
 T 8095 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=77/PA1/AD1
 T 8145 3795 5 10 1 1 90 2 1
 pinnumber=26
 }
@@ -589,7 +589,7 @@ pintype=unknown
 T 7850 4200 5 10 0 0 90 8 1
 pinseq=0
 T 7795 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=75/PA3/AD3
 T 7845 3795 5 10 1 1 90 2 1
 pinnumber=28
 }
@@ -600,7 +600,7 @@ pintype=unknown
 T 7550 4200 5 10 0 0 90 8 1
 pinseq=0
 T 7495 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=73/PA5/AD5
 T 7545 3795 5 10 1 1 90 2 1
 pinnumber=30
 }
@@ -611,7 +611,7 @@ pintype=unknown
 T 7250 4200 5 10 0 0 90 8 1
 pinseq=0
 T 7195 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=71/PA7/AD7
 T 7245 3795 5 10 1 1 90 2 1
 pinnumber=32
 }
@@ -622,7 +622,7 @@ pintype=unknown
 T 6950 4200 5 10 0 0 90 8 1
 pinseq=0
 T 6895 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=59/PC6/A14
 T 6945 3795 5 10 1 1 90 2 1
 pinnumber=34
 }
@@ -633,7 +633,7 @@ pintype=unknown
 T 6650 4200 5 10 0 0 90 8 1
 pinseq=0
 T 6595 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=57/PC4/A12
 T 6645 3795 5 10 1 1 90 2 1
 pinnumber=36
 }
@@ -644,7 +644,7 @@ pintype=unknown
 T 6350 4200 5 10 0 0 90 8 1
 pinseq=0
 T 6295 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=55/PC2/A10
 T 6345 3795 5 10 1 1 90 2 1
 pinnumber=38
 }
@@ -655,7 +655,7 @@ pintype=unknown
 T 6050 4200 5 10 0 0 90 8 1
 pinseq=0
 T 5995 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=53/PC0/A8
 T 6045 3795 5 10 1 1 90 2 1
 pinnumber=40
 }
@@ -666,7 +666,7 @@ pintype=unknown
 T 5750 4200 5 10 0 0 90 8 1
 pinseq=0
 T 5695 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=ALE/PG2/70
 T 5745 3795 5 10 1 1 90 2 1
 pinnumber=42
 }
@@ -677,7 +677,7 @@ pintype=unknown
 T 5450 4200 5 10 0 0 90 8 1
 pinseq=0
 T 5395 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=WR/PG0/51
 T 5445 3795 5 10 1 1 90 2 1
 pinnumber=44
 }
@@ -688,7 +688,7 @@ pintype=unknown
 T 5150 4200 5 10 0 0 90 8 1
 pinseq=0
 T 5095 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=PL6/41
 T 5145 3795 5 10 1 1 90 2 1
 pinnumber=46
 }
@@ -699,7 +699,7 @@ pintype=unknown
 T 4850 4200 5 10 0 0 90 8 1
 pinseq=0
 T 4795 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=OC5B/PL4/39
 T 4845 3795 5 10 1 1 90 2 1
 pinnumber=48
 }
@@ -710,7 +710,7 @@ pintype=unknown
 T 4550 4200 5 10 0 0 90 8 1
 pinseq=0
 T 4495 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=T5/PL2/37
 T 4545 3795 5 10 1 1 90 2 1
 pinnumber=50
 }
@@ -721,7 +721,7 @@ pintype=unknown
 T 4250 4200 5 10 0 0 90 8 1
 pinseq=0
 T 4195 3645 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=ICP4/PL0/35
 T 4245 3795 5 10 1 1 90 2 1
 pinnumber=52
 }
@@ -732,7 +732,7 @@ pintype=unknown
 T 4250 800 5 10 0 0 270 8 1
 pinseq=0
 T 4195 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 4345 995 5 10 1 1 90 2 1
 pinnumber=53
 }
@@ -743,7 +743,7 @@ pintype=unknown
 T 4550 800 5 10 0 0 270 8 1
 pinseq=0
 T 4495 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 4645 995 5 10 1 1 90 2 1
 pinnumber=51
 }
@@ -754,7 +754,7 @@ pintype=unknown
 T 4850 800 5 10 0 0 270 8 1
 pinseq=0
 T 4795 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 4945 995 5 10 1 1 90 2 1
 pinnumber=49
 }
@@ -765,7 +765,7 @@ pintype=unknown
 T 5150 800 5 10 0 0 270 8 1
 pinseq=0
 T 5095 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 5245 995 5 10 1 1 90 2 1
 pinnumber=47
 }
@@ -776,7 +776,7 @@ pintype=unknown
 T 5450 800 5 10 0 0 270 8 1
 pinseq=0
 T 5395 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 5545 995 5 10 1 1 90 2 1
 pinnumber=45
 }
@@ -787,7 +787,7 @@ pintype=unknown
 T 5750 800 5 10 0 0 270 8 1
 pinseq=0
 T 5695 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 5845 995 5 10 1 1 90 2 1
 pinnumber=43
 }
@@ -798,7 +798,7 @@ pintype=unknown
 T 6050 800 5 10 0 0 270 8 1
 pinseq=0
 T 5995 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 6145 995 5 10 1 1 90 2 1
 pinnumber=41
 }
@@ -809,7 +809,7 @@ pintype=unknown
 T 6350 800 5 10 0 0 270 8 1
 pinseq=0
 T 6295 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 6445 995 5 10 1 1 90 2 1
 pinnumber=39
 }
@@ -820,7 +820,7 @@ pintype=unknown
 T 6650 800 5 10 0 0 270 8 1
 pinseq=0
 T 6595 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 6745 995 5 10 1 1 90 2 1
 pinnumber=37
 }
@@ -831,7 +831,7 @@ pintype=unknown
 T 6950 800 5 10 0 0 270 8 1
 pinseq=0
 T 6895 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 7045 995 5 10 1 1 90 2 1
 pinnumber=35
 }
@@ -842,7 +842,7 @@ pintype=unknown
 T 7250 800 5 10 0 0 270 8 1
 pinseq=0
 T 7195 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 7345 995 5 10 1 1 90 2 1
 pinnumber=33
 }
@@ -853,7 +853,7 @@ pintype=unknown
 T 7550 800 5 10 0 0 270 8 1
 pinseq=0
 T 7495 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 7645 995 5 10 1 1 90 2 1
 pinnumber=31
 }
@@ -864,7 +864,7 @@ pintype=unknown
 T 7850 800 5 10 0 0 270 8 1
 pinseq=0
 T 7795 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 7945 995 5 10 1 1 90 2 1
 pinnumber=29
 }
@@ -875,7 +875,7 @@ pintype=unknown
 T 8150 800 5 10 0 0 270 8 1
 pinseq=0
 T 8095 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 8245 995 5 10 1 1 90 2 1
 pinnumber=27
 }
@@ -886,7 +886,7 @@ pintype=unknown
 T 8450 800 5 10 0 0 270 8 1
 pinseq=0
 T 8395 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 8545 995 5 10 1 1 90 2 1
 pinnumber=25
 }
@@ -897,7 +897,7 @@ pintype=unknown
 T 8750 800 5 10 0 0 270 8 1
 pinseq=0
 T 8695 2145 9 10 1 1 90 8 1
-pinlabel=unknown
+pinlabel=
 T 8845 995 5 10 1 1 90 2 1
 pinnumber=23
 }
