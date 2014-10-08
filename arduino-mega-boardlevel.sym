@@ -918,3 +918,10 @@ T 4500 7400 9 10 0 0 0 0 1
 documentation=github.com/miloh/gaf-symbols.git
 T 4500 7800 9 10 0 0 0 0 1
 description=a hard symbol for use with dcvs prototypes and shield designs using the arduino mega2560
+T 8900 17500 9 12 1 1 0 0 1
+refdes=A?
+T 8900 17500 9 12 0 0 0 0 1
+footprint=arduino-mega2560-rev3
+T 4300 13000 9 24 1 1 0 0 1
+device=Arduino-Mega2560
+B 300 1500 11800 16700 3 0 1 2 100 100 0 -1 -1 -1 -1 -1
