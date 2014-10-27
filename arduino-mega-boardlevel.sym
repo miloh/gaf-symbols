@@ -17,7 +17,7 @@ pintype=io
 T 2055 15895 9 10 1 1 0 0 1
 pinlabel=IOREF
 T 1905 15945 5 10 1 1 0 6 1
-pinnumber=0
+pinnumber=IOREF
 T 1500 15950 5 10 0 0 0 0 1
 pinseq=0
 }
@@ -30,7 +30,7 @@ pinseq=0
 T 2055 15295 9 10 1 1 0 0 1
 pinlabel=3V3
 T 1905 15645 5 10 1 1 0 6 1
-pinnumber=0
+pinnumber=3V3
 }
 P 1400 15000 2000 15000 1 0 0
 {
@@ -41,7 +41,7 @@ pinseq=0
 T 2055 14995 9 10 1 1 0 0 1
 pinlabel=5V
 T 1905 15045 5 10 1 1 0 6 1
-pinnumber=0
+pinnumber=5V
 }
 P 1400 14700 2000 14700 1 0 0
 {
