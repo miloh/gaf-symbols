@@ -51,7 +51,7 @@ WS2812B
 T 400 1600 5 10 0 0 0 0 1
 device=WS2812B
 T 400 1800 5 10 0 0 0 0 1
-footprint=5050-4
+footprint=WS2812B
 T 400 2000 5 10 0 0 0 0 1
 author=R. Miloh Alexander
 T 400 2200 5 10 0 0 0 0 1
