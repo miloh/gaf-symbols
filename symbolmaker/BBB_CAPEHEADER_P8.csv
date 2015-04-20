@@ -13,7 +13,7 @@ wordswap	yes
 rotate_labels	no					
 sort_labels	no					
 generate_pinseq	no					
-sym_width	800					
+sym_width	2400					
 pinwidthvertical	400					
 pinwidthhorizontal	400					
 						
@@ -55,49 +55,49 @@ use-license
 #	"if you want to write a ""\"" use ""\\"" as escape sequence"					
 #						
 #pinnr	seq	type	style	posit.	net	label
-1	1	pas	line	l	DGND	1
-2	2	pas	line	r	DGND	2
-3	3	pas	line	l	GPIO_38	3
-4	4	pas	line	r	GPIO_39	4
-5	5	pas	line	l	GPIO_34	5
-6	6	pas	line	r	GPIO_35	6
-7	7	pas	line	l	GPIO_66	7
-8	8	pas	line	r	GPIO_67	8
-9	9	pas	line	l	GPIO_69	9
-10	10	pas	dot	r	GPIO_68	10
-11	11	pas	line	l	GPIO_45	11
-12	12	pas	line	r	GPIO_44	12
-13	13	pas	line	l	GPIO_23	13
-14	14	pas	line	r	GPIO_26	14
-15	15	pas	line	l	GPIO_47	15
-16	16	pas	line	r	GPIO_46	16
-17	17	pas	line	l	GPIO_27	17
-18	18	pas	line	r	GPIO_65	18
-19	19	pas	line	l	GPIO_22	19
-20	20	pas	line	r	GPIO_63	20
-21	21	pas	line	l	GPIO_62	21
-22	22	pas	line	r	GPIO_37	22
-23	23	pas	line	l	GPIO_36	23
-24	24	pas	line	r	GPIO_33	24
-25	25	pas	line	l	GPIO_32	25
-26	26	pas	line	r	GPIO_61	26
-27	27	pas	line	l	GPIO_86	27
-28	28	pas	line	r	GPIO_88	28
-29	29	pas	line	l	GPIO_87	29
-30	30	pas	line	r	GPIO_89	30
-31	31	pas	line	l	GPIO_10	31
-32	32	pas	line	r	GPIO_11	32
-33	33	pas	line	l	GPIO_9	33
-34	34	pas	line	r	GPIO_81	34
-35	35	pas	line	l	GPIO_8	35
-36	36	pas	line	r	GPIO_80	36
-37	37	pas	line	l	GPIO_78	37
-38	38	pas	line	r	GPIO_79	38
-39	39	pas	line	l	GPIO_76	39
-40	40	pas	line	r	GPIO_77	40
-41	41	pas	line	l	GPIO_74	41
-42	42	pas	line	r	GPIO_75	42
-43	43	pas	line	l	GPIO_72	43
-44	44	pas	line	r	GPIO_73	44
-45	45	pas	line	l	GPIO_70	45
-46	46	pas	line	r	GPIO_71	46
+1	1	pas	line	l	1	DGND
+2	2	pas	line	r	2	DGND
+3	3	pas	line	l	3	GPIO_38
+4	4	pas	line	r	4	GPIO_39
+5	5	pas	line	l	5	GPIO_34
+6	6	pas	line	r	6	GPIO_35
+7	7	pas	line	l	7	GPIO_66
+8	8	pas	line	r	8	GPIO_67
+9	9	pas	line	l	9	GPIO_69
+10	10	pas	dot	r	10	GPIO_68
+11	11	pas	line	l	11	GPIO_45
+12	12	pas	line	r	12	GPIO_44
+13	13	pas	line	l	13	GPIO_23
+14	14	pas	line	r	14	GPIO_26
+15	15	pas	line	l	15	GPIO_47
+16	16	pas	line	r	16	GPIO_46
+17	17	pas	line	l	17	GPIO_27
+18	18	pas	line	r	18	GPIO_65
+19	19	pas	line	l	19	GPIO_22
+20	20	pas	line	r	20	GPIO_63
+21	21	pas	line	l	21	GPIO_62
+22	22	pas	line	r	22	GPIO_37
+23	23	pas	line	l	23	GPIO_36
+24	24	pas	line	r	24	GPIO_33
+25	25	pas	line	l	25	GPIO_32
+26	26	pas	line	r	26	GPIO_61
+27	27	pas	line	l	27	GPIO_86
+28	28	pas	line	r	28	GPIO_88
+29	29	pas	line	l	29	GPIO_87
+30	30	pas	line	r	30	GPIO_89
+31	31	pas	line	l	31	GPIO_10
+32	32	pas	line	r	32	GPIO_11
+33	33	pas	line	l	33	GPIO_9
+34	34	pas	line	r	34	GPIO_81
+35	35	pas	line	l	35	GPIO_8
+36	36	pas	line	r	36	GPIO_80
+37	37	pas	line	l	37	GPIO_78
+38	38	pas	line	r	38	GPIO_79
+39	39	pas	line	l	39	GPIO_76
+40	40	pas	line	r	40	GPIO_77
+41	41	pas	line	l	41	GPIO_74
+42	42	pas	line	r	42	GPIO_75
+43	43	pas	line	l	43	GPIO_72
+44	44	pas	line	r	44	GPIO_73
+45	45	pas	line	l	45	GPIO_70
+46	46	pas	line	r	46	GPIO_71

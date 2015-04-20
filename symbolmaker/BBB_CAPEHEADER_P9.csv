@@ -13,7 +13,7 @@ wordswap	yes
 rotate_labels	no					
 sort_labels	no					
 generate_pinseq	no					
-sym_width	800					
+sym_width	2400					
 pinwidthvertical	400					
 pinwidthhorizontal	400					
 						
@@ -55,49 +55,49 @@ use-license
 #	"if you want to write a ""\"" use ""\\"" as escape sequence"					
 #						
 #pinnr	seq	type	style	posit.	net	label
-1	1	pas	line	l	DGND	1
-2	2	pas	line	r	DGND	2
-3	3	pas	line	l	VDD_3V3	3
-4	4	pas	line	r	VDD_3V3	4
-5	5	pas	line	l	VDD_5V	5
-6	6	pas	line	r	VDD_5V	6
-7	7	pas	line	l	SYS_5V	7
-8	8	pas	line	r	SYS_5V	8
-9	9	pas	line	l	PWR_BUT	9
-10	10	pas	dot	r	SYS_RESET	10
-11	11	pas	line	l	GPIO_30	11
-12	12	pas	line	r	GPIO_60	12
-13	13	pas	line	l	GPIO_31	13
-14	14	pas	line	r	GPIO_40	14
-15	15	pas	line	l	GPIO_48	15
-16	16	pas	line	r	GPIO_51	16
-17	17	pas	line	l	GPIO_4	17
-18	18	pas	line	r	GPIO_5	18
-19	19	pas	line	l	I2C2_SCL	19
-20	20	pas	line	r	I2C2_SDA	20
-21	21	pas	line	l	GPIO_3	21
-22	22	pas	line	r	GPIO_2	22
-23	23	pas	line	l	GPIO_49	23
-24	24	pas	line	r	GPIO_15	24
-25	25	pas	line	l	GPIO_117	25
-26	26	pas	line	r	GPIO_14	26
-27	27	pas	line	l	GPIO_125	27
-28	28	pas	line	r	GPIO_123	28
-29	29	pas	line	l	GPIO_121	29
-30	30	pas	line	r	GPIO_122	30
-31	31	pas	line	l	GPIO_120	31
-32	32	pas	line	r	VDD_ADC	32
-33	33	pas	line	l	AIN4	33
-34	34	pas	line	r	GNDA_ADC	34
-35	35	pas	line	l	AIN6	35
-36	36	pas	line	r	AIN5	36
-37	37	pas	line	l	AIN2	37
-38	38	pas	line	r	AIN3	38
-39	39	pas	line	l	AIN0	39
-40	40	pas	line	r	AIN1	40
-41	41	pas	line	l	GPIO_20	41
-42	42	pas	line	r	GPIO_7	42
-43	43	pas	line	l	DGND	43
-44	44	pas	line	r	DGND	44
-45	45	pas	line	l	DGND	45
-46	46	pas	line	r	DGND	46
+1	1	pas	line	l	1	DGND
+2	2	pas	line	r	2	DGND
+3	3	pas	line	l	3	VDD_3V3
+4	4	pas	line	r	4	VDD_3V3
+5	5	pas	line	l	5	VDD_5V
+6	6	pas	line	r	6	VDD_5V
+7	7	pas	line	l	7	SYS_5V
+8	8	pas	line	r	8	SYS_5V
+9	9	pas	line	l	9	PWR_BUT
+10	10	pas	dot	r	10	SYS_RESET
+11	11	pas	line	l	11	GPIO_30
+12	12	pas	line	r	12	GPIO_60
+13	13	pas	line	l	13	GPIO_31
+14	14	pas	line	r	14	GPIO_40
+15	15	pas	line	l	15	GPIO_48
+16	16	pas	line	r	16	GPIO_51
+17	17	pas	line	l	17	GPIO_4
+18	18	pas	line	r	18	GPIO_5
+19	19	pas	line	l	19	I2C2_SCL
+20	20	pas	line	r	20	I2C2_SDA
+21	21	pas	line	l	21	GPIO_3
+22	22	pas	line	r	22	GPIO_2
+23	23	pas	line	l	23	GPIO_49
+24	24	pas	line	r	24	GPIO_15
+25	25	pas	line	l	25	GPIO_117
+26	26	pas	line	r	26	GPIO_14
+27	27	pas	line	l	27	GPIO_125
+28	28	pas	line	r	28	GPIO_123
+29	29	pas	line	l	29	GPIO_121
+30	30	pas	line	r	30	GPIO_122
+31	31	pas	line	l	31	GPIO_120
+32	32	pas	line	r	32	VDD_ADC
+33	33	pas	line	l	33	AIN4
+34	34	pas	line	r	34	GNDA_ADC
+35	35	pas	line	l	35	AIN6
+36	36	pas	line	r	36	AIN5
+37	37	pas	line	l	37	AIN2
+38	38	pas	line	r	38	AIN3
+39	39	pas	line	l	39	AIN0
+40	40	pas	line	r	40	AIN1
+41	41	pas	line	l	41	GPIO_20
+42	42	pas	line	r	42	GPIO_7
+43	43	pas	line	l	43	DGND
+44	44	pas	line	r	44	DGND
+45	45	pas	line	l	45	DGND
+46	46	pas	line	r	46	DGND
