@@ -1,0 +1,101 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"#   ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+#   this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+#   useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	yes					
+sort_labels	no					
+generate_pinseq	yes					
+sym_width	4800					
+pinwidthvertical	350					
+pinwidthhorizontal	350					
+						
+[geda_attr]						
+# name will be printed in the top of the symbol						
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name	TMC2660					
+device	lqfp44					
+refdes	U?					
+footprint	LQFP44					
+description	Trinamic Bipolar Stepper Driver					
+documentation	Trinamic					
+author	R Miloh Alexander					
+numslots	0					
+dist-license						
+use-license						
+#slot	1					
+#slotdef	1:					
+#slotdef	2:					
+#slotdef	3:					
+#slotdef	4:					
+#comment						
+#comment						
+#comment						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+1	1	io	none	l	NC	NC
+2	2	pwr	line	l	OA1	OA1
+3	3	pwr	line	l	OA1	OA1
+4	4	pwr	line	l	VSA	VSA
+5	5	pwr	line	l	OA2	OA2
+6	6	pwr	line	l	OA2	OA2
+7	7	pwr	line	l	OA1	OA1
+8	8	pwr	line	l	OA1	OA1
+9	9	pwr	line	l	BRA	BRA
+10	10	pwr	line	l	OA2	OA2
+11	11	pwr	line	l	OA2	OA2
+12	12	pwr	line	b	SRA	SRA
+13	13	pwr	line	b	5VOUT	5VOUT
+14	14	io	line	b	SDO	SDO
+15	15	io	line	b	SDI	SDI
+16	16	io	line	b	SCK	SCK
+17	17	pwr	line	b	GND	GND
+18	18	io	line	b	CSN	CSN
+19	19	io	dot	b	ENN	ENN
+20	20	io	none	b	NC	NC
+21	21	clk	clk	b	CLK	CLK
+22	22	io	line	b	SRB	SRB
+23	23	pwr	line	r	OB2	OB2
+24	24	pwr	line	r	OB2	OB2
+25	25	pwr	line	r	BRB	BRB
+26	26	pwr	line	r	OB1	OB1
+27	27	pwr	line	r	OB1	OB1
+28	28	pwr	line	r	OB2	OB2
+29	29	pwr	line	r	OB2	OB2
+30	30	pwr	line	r	VSB	VSB
+31	31	pwr	line	r	OB1	OB1
+32	32	pwr	line	r	OB1	OB1
+33	33	io	none	r	NC	NC
+34	34	io	none	t	NC	NC
+35	35	pwr	line	t	VHS	VHS
+36	36	pwr	line	t	VS	VS
+37	37	io	line	t	TST_ANA	TST_ANA
+38	38	io	line	t	SG_TST	SG_TST
+39	39	pwr	line	t	GND	GND
+40	40	pwr	line	t	VCC_IO	VCC_IO
+41	41	io	line	t	DIR	DIR
+42	42	io	line	t	STEP	STEP
+43	43	io	line	t	TST_MODE	TST_MODE
+44	44	pwr	line	t	GND	GND
