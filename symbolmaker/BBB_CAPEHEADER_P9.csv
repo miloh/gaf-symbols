@@ -1,0 +1,103 @@
+# This is the template file for creating symbols with tragesym						
+# every line starting with '#' is a comment line.						
+# save it as text file with tab separated cells and start tragesym						
+						
+[options]						
+# wordswap swaps labels if the pin is on the right side an looks like this:						
+"#   ""PB1 (CLK)"". That's useful for micro controller port labels"						
+# rotate_labels rotates the pintext of top and bottom pins						
+#   this is useful for large symbols like FPGAs with more than 100 pins						
+# sort_labels will sort the pins by it's labels						
+#   useful for address ports, busses, ...						
+wordswap	yes					
+rotate_labels	no					
+sort_labels	no					
+generate_pinseq	no					
+sym_width	800					
+pinwidthvertical	400					
+pinwidthhorizontal	400					
+						
+[geda_attr]						
+# name will be printed in the top of the symbol				D		
+# if you have a device with slots, you'll have to use slot= and slotdef=						
+# use comment= if there are special information you want to add						
+version	20060113 1					
+name						
+device						
+refdes	U?					
+footprint						
+description						
+documentation						
+author						
+numslots	0					
+dist-license						
+use-license						
+#slot	1					
+#slotdef	1:					
+#slotdef	2:					
+#slotdef	3:					
+#slotdef	4:					
+#comment						
+#comment						
+#comment						
+						
+[pins]						
+# tabseparated list of pin descriptions						
+#						
+# pinnr is the physical number of the pin						
+# seq is the pinseq= attribute, leave it blank if it doesn't matter						
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)						
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net						
+# posit. can be (l,r,t,b) or empty for nets						
+# net specifies the name of the net. Vcc or GND for example.						
+# label represents the pinlabel.						
+#	"negation lines can be added with ""\_"" example: \_enable\_ "					
+#	"if you want to write a ""\"" use ""\\"" as escape sequence"					
+#						
+#pinnr	seq	type	style	posit.	net	label
+1	1	pas	line	l	DGND	1
+2	2	pas	line	r	DGND	2
+3	3	pas	line	l	VDD_3V3	3
+4	4	pas	line	r	VDD_3V3	4
+5	5	pas	line	l	VDD_5V	5
+6	6	pas	line	r	VDD_5V	6
+7	7	pas	line	l	SYS_5V	7
+8	8	pas	line	r	SYS_5V	8
+9	9	pas	line	l	PWR_BUT	9
+10	10	pas	dot	r	SYS_RESET	10
+11	11	pas	line	l	GPIO_30	11
+12	12	pas	line	r	GPIO_60	12
+13	13	pas	line	l	GPIO_31	13
+14	14	pas	line	r	GPIO_40	14
+15	15	pas	line	l	GPIO_48	15
+16	16	pas	line	r	GPIO_51	16
+17	17	pas	line	l	GPIO_4	17
+18	18	pas	line	r	GPIO_5	18
+19	19	pas	line	l	I2C2_SCL	19
+20	20	pas	line	r	I2C2_SDA	20
+21	21	pas	line	l	GPIO_3	21
+22	22	pas	line	r	GPIO_2	22
+23	23	pas	line	l	GPIO_49	23
+24	24	pas	line	r	GPIO_15	24
+25	25	pas	line	l	GPIO_117	25
+26	26	pas	line	r	GPIO_14	26
+27	27	pas	line	l	GPIO_125	27
+28	28	pas	line	r	GPIO_123	28
+29	29	pas	line	l	GPIO_121	29
+30	30	pas	line	r	GPIO_122	30
+31	31	pas	line	l	GPIO_120	31
+32	32	pas	line	r	VDD_ADC	32
+33	33	pas	line	l	AIN4	33
+34	34	pas	line	r	GNDA_ADC	34
+35	35	pas	line	l	AIN6	35
+36	36	pas	line	r	AIN5	36
+37	37	pas	line	l	AIN2	37
+38	38	pas	line	r	AIN3	38
+39	39	pas	line	l	AIN0	39
+40	40	pas	line	r	AIN1	40
+41	41	pas	line	l	GPIO_20	41
+42	42	pas	line	r	GPIO_7	42
+43	43	pas	line	l	DGND	43
+44	44	pas	line	r	DGND	44
+45	45	pas	line	l	DGND	45
+46	46	pas	line	r	DGND	46
