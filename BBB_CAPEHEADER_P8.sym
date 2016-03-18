@@ -28,7 +28,7 @@ pinnumber=3
 T 300 8850 5 8 0 1 0 8 1
 pinseq=3
 T 450 8900 9 8 1 1 0 0 1
-pinlabel=VDD_3V3
+pinlabel=GPIO_38
 T 450 8900 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -39,7 +39,7 @@ pinnumber=4
 T 2900 8850 5 8 0 1 0 2 1
 pinseq=4
 T 2750 8900 9 8 1 1 0 6 1
-pinlabel=VDD_3V3
+pinlabel=GPIO_39
 T 2750 8900 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -50,7 +50,7 @@ pinnumber=5
 T 300 8450 5 8 0 1 0 8 1
 pinseq=5
 T 450 8500 9 8 1 1 0 0 1
-pinlabel=VDD_5V
+pinlabel=GPIO_34
 T 450 8500 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -61,7 +61,7 @@ pinnumber=6
 T 2900 8450 5 8 0 1 0 2 1
 pinseq=6
 T 2750 8500 9 8 1 1 0 6 1
-pinlabel=VDD_5V
+pinlabel=GPIO_35
 T 2750 8500 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -72,7 +72,7 @@ pinnumber=7
 T 300 8050 5 8 0 1 0 8 1
 pinseq=7
 T 450 8100 9 8 1 1 0 0 1
-pinlabel=SYS_5V
+pinlabel=GPIO_66
 T 450 8100 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -83,7 +83,7 @@ pinnumber=8
 T 2900 8050 5 8 0 1 0 2 1
 pinseq=8
 T 2750 8100 9 8 1 1 0 6 1
-pinlabel=SYS_5V
+pinlabel=GPIO_67
 T 2750 8100 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -94,7 +94,7 @@ pinnumber=9
 T 300 7650 5 8 0 1 0 8 1
 pinseq=9
 T 450 7700 9 8 1 1 0 0 1
-pinlabel=PWR_BUT
+pinlabel=GPIO_69
 T 450 7700 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -105,7 +105,7 @@ pinnumber=10
 T 2900 7650 5 8 0 1 0 2 1
 pinseq=10
 T 2750 7700 9 8 1 1 0 6 1
-pinlabel=SYS_RESET
+pinlabel=GPIO_68
 T 2750 7700 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -117,7 +117,7 @@ pinnumber=11
 T 300 7250 5 8 0 1 0 8 1
 pinseq=11
 T 450 7300 9 8 1 1 0 0 1
-pinlabel=GPIO_30
+pinlabel=GPIO_45
 T 450 7300 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -128,7 +128,7 @@ pinnumber=12
 T 2900 7250 5 8 0 1 0 2 1
 pinseq=12
 T 2750 7300 9 8 1 1 0 6 1
-pinlabel=GPIO_60
+pinlabel=GPIO_44
 T 2750 7300 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -139,7 +139,7 @@ pinnumber=13
 T 300 6850 5 8 0 1 0 8 1
 pinseq=13
 T 450 6900 9 8 1 1 0 0 1
-pinlabel=GPIO_31
+pinlabel=GPIO_23
 T 450 6900 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -150,7 +150,7 @@ pinnumber=14
 T 2900 6850 5 8 0 1 0 2 1
 pinseq=14
 T 2750 6900 9 8 1 1 0 6 1
-pinlabel=GPIO_40
+pinlabel=GPIO_26
 T 2750 6900 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -161,7 +161,7 @@ pinnumber=15
 T 300 6450 5 8 0 1 0 8 1
 pinseq=15
 T 450 6500 9 8 1 1 0 0 1
-pinlabel=GPIO_48
+pinlabel=GPIO_47
 T 450 6500 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -172,7 +172,7 @@ pinnumber=16
 T 2900 6450 5 8 0 1 0 2 1
 pinseq=16
 T 2750 6500 9 8 1 1 0 6 1
-pinlabel=GPIO_51
+pinlabel=GPIO_46
 T 2750 6500 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -183,7 +183,7 @@ pinnumber=17
 T 300 6050 5 8 0 1 0 8 1
 pinseq=17
 T 450 6100 9 8 1 1 0 0 1
-pinlabel=GPIO_4
+pinlabel=GPIO_27
 T 450 6100 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -194,7 +194,7 @@ pinnumber=18
 T 2900 6050 5 8 0 1 0 2 1
 pinseq=18
 T 2750 6100 9 8 1 1 0 6 1
-pinlabel=GPIO_5
+pinlabel=GPIO_65
 T 2750 6100 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -205,7 +205,7 @@ pinnumber=19
 T 300 5650 5 8 0 1 0 8 1
 pinseq=19
 T 450 5700 9 8 1 1 0 0 1
-pinlabel=I2C2_SCL
+pinlabel=GPIO_22
 T 450 5700 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -216,7 +216,7 @@ pinnumber=20
 T 2900 5650 5 8 0 1 0 2 1
 pinseq=20
 T 2750 5700 9 8 1 1 0 6 1
-pinlabel=I2C2_SDA
+pinlabel=GPIO_63
 T 2750 5700 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -227,7 +227,7 @@ pinnumber=21
 T 300 5250 5 8 0 1 0 8 1
 pinseq=21
 T 450 5300 9 8 1 1 0 0 1
-pinlabel=GPIO_3
+pinlabel=GPIO_62
 T 450 5300 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -238,7 +238,7 @@ pinnumber=22
 T 2900 5250 5 8 0 1 0 2 1
 pinseq=22
 T 2750 5300 9 8 1 1 0 6 1
-pinlabel=GPIO_2
+pinlabel=GPIO_37
 T 2750 5300 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -249,7 +249,7 @@ pinnumber=23
 T 300 4850 5 8 0 1 0 8 1
 pinseq=23
 T 450 4900 9 8 1 1 0 0 1
-pinlabel=GPIO_49
+pinlabel=GPIO_36
 T 450 4900 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -260,7 +260,7 @@ pinnumber=24
 T 2900 4850 5 8 0 1 0 2 1
 pinseq=24
 T 2750 4900 9 8 1 1 0 6 1
-pinlabel=GPIO_15
+pinlabel=GPIO_33
 T 2750 4900 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -271,7 +271,7 @@ pinnumber=25
 T 300 4450 5 8 0 1 0 8 1
 pinseq=25
 T 450 4500 9 8 1 1 0 0 1
-pinlabel=GPIO_117
+pinlabel=GPIO_32
 T 450 4500 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -282,7 +282,7 @@ pinnumber=26
 T 2900 4450 5 8 0 1 0 2 1
 pinseq=26
 T 2750 4500 9 8 1 1 0 6 1
-pinlabel=GPIO_14
+pinlabel=GPIO_61
 T 2750 4500 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -293,7 +293,7 @@ pinnumber=27
 T 300 4050 5 8 0 1 0 8 1
 pinseq=27
 T 450 4100 9 8 1 1 0 0 1
-pinlabel=GPIO_125
+pinlabel=GPIO_86
 T 450 4100 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -304,7 +304,7 @@ pinnumber=28
 T 2900 4050 5 8 0 1 0 2 1
 pinseq=28
 T 2750 4100 9 8 1 1 0 6 1
-pinlabel=GPIO_123
+pinlabel=GPIO_88
 T 2750 4100 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -315,7 +315,7 @@ pinnumber=29
 T 300 3650 5 8 0 1 0 8 1
 pinseq=29
 T 450 3700 9 8 1 1 0 0 1
-pinlabel=GPIO_121
+pinlabel=GPIO_87
 T 450 3700 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -326,7 +326,7 @@ pinnumber=30
 T 2900 3650 5 8 0 1 0 2 1
 pinseq=30
 T 2750 3700 9 8 1 1 0 6 1
-pinlabel=GPIO_122
+pinlabel=GPIO_89
 T 2750 3700 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -337,7 +337,7 @@ pinnumber=31
 T 300 3250 5 8 0 1 0 8 1
 pinseq=31
 T 450 3300 9 8 1 1 0 0 1
-pinlabel=GPIO_120
+pinlabel=GPIO_10
 T 450 3300 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -348,7 +348,7 @@ pinnumber=32
 T 2900 3250 5 8 0 1 0 2 1
 pinseq=32
 T 2750 3300 9 8 1 1 0 6 1
-pinlabel=VDD_ADC
+pinlabel=GPIO_11
 T 2750 3300 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -359,7 +359,7 @@ pinnumber=33
 T 300 2850 5 8 0 1 0 8 1
 pinseq=33
 T 450 2900 9 8 1 1 0 0 1
-pinlabel=AIN4
+pinlabel=GPIO_9
 T 450 2900 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -370,7 +370,7 @@ pinnumber=34
 T 2900 2850 5 8 0 1 0 2 1
 pinseq=34
 T 2750 2900 9 8 1 1 0 6 1
-pinlabel=GNDA_ADC
+pinlabel=GPIO_81
 T 2750 2900 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -381,7 +381,7 @@ pinnumber=35
 T 300 2450 5 8 0 1 0 8 1
 pinseq=35
 T 450 2500 9 8 1 1 0 0 1
-pinlabel=AIN6
+pinlabel=GPIO_8
 T 450 2500 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -392,7 +392,7 @@ pinnumber=36
 T 2900 2450 5 8 0 1 0 2 1
 pinseq=36
 T 2750 2500 9 8 1 1 0 6 1
-pinlabel=AIN5
+pinlabel=GPIO_80
 T 2750 2500 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -403,7 +403,7 @@ pinnumber=37
 T 300 2050 5 8 0 1 0 8 1
 pinseq=37
 T 450 2100 9 8 1 1 0 0 1
-pinlabel=AIN2
+pinlabel=GPIO_78
 T 450 2100 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -414,7 +414,7 @@ pinnumber=38
 T 2900 2050 5 8 0 1 0 2 1
 pinseq=38
 T 2750 2100 9 8 1 1 0 6 1
-pinlabel=AIN3
+pinlabel=GPIO_79
 T 2750 2100 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -425,7 +425,7 @@ pinnumber=39
 T 300 1650 5 8 0 1 0 8 1
 pinseq=39
 T 450 1700 9 8 1 1 0 0 1
-pinlabel=AIN0
+pinlabel=GPIO_76
 T 450 1700 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -436,7 +436,7 @@ pinnumber=40
 T 2900 1650 5 8 0 1 0 2 1
 pinseq=40
 T 2750 1700 9 8 1 1 0 6 1
-pinlabel=AIN1
+pinlabel=GPIO_77
 T 2750 1700 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -447,7 +447,7 @@ pinnumber=41
 T 300 1250 5 8 0 1 0 8 1
 pinseq=41
 T 450 1300 9 8 1 1 0 0 1
-pinlabel=GPIO_20
+pinlabel=GPIO_74
 T 450 1300 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -458,7 +458,7 @@ pinnumber=42
 T 2900 1250 5 8 0 1 0 2 1
 pinseq=42
 T 2750 1300 9 8 1 1 0 6 1
-pinlabel=GPIO_7
+pinlabel=GPIO_75
 T 2750 1300 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -469,7 +469,7 @@ pinnumber=43
 T 300 850 5 8 0 1 0 8 1
 pinseq=43
 T 450 900 9 8 1 1 0 0 1
-pinlabel=DGND
+pinlabel=GPIO_72
 T 450 900 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -480,7 +480,7 @@ pinnumber=44
 T 2900 850 5 8 0 1 0 2 1
 pinseq=44
 T 2750 900 9 8 1 1 0 6 1
-pinlabel=DGND
+pinlabel=GPIO_73
 T 2750 900 5 8 0 1 0 8 1
 pintype=pas
 }
@@ -491,7 +491,7 @@ pinnumber=45
 T 300 450 5 8 0 1 0 8 1
 pinseq=45
 T 450 500 9 8 1 1 0 0 1
-pinlabel=DGND
+pinlabel=GPIO_70
 T 450 500 5 8 0 1 0 2 1
 pintype=pas
 }
@@ -502,7 +502,7 @@ pinnumber=46
 T 2900 450 5 8 0 1 0 2 1
 pinseq=46
 T 2750 500 9 8 1 1 0 6 1
-pinlabel=DGND
+pinlabel=GPIO_71
 T 2750 500 5 8 0 1 0 8 1
 pintype=pas
 }
