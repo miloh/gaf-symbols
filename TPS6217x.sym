@@ -80,15 +80,15 @@ B 400 100 1400 2200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 1700 2300 8 10 1 1 0 6 1
 refdes=U?
 T 400 2300 9 10 1 0 0 0 1
-TPS62177
+TPS6217x
 T 400 2400 5 10 0 0 0 0 1
-device=max483
+device=TPS6217x
 T 400 2600 5 10 0 0 0 0 1
 author=r. miloh alexander
 T 400 2800 5 10 0 0 0 0 1
-documentation=maximintegrated.com
+documentation=TI
 T 400 3000 5 10 0 0 0 0 1
-description=RS-485 TXCVR in SO8/DIP8
+description=28-V, 0.5-A Step-Down converter with sleep mode in 10-pin WSON
 T 400 3200 5 10 0 0 0 0 1
 numslots=0
 P 100 400 400 400 1 0 0
