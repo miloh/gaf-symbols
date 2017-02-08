@@ -1,0 +1,102 @@
+v 20140308 2
+P 0 1100 300 1100 1 0 0
+{
+T 200 1150 5 8 1 1 0 6 1
+pinnumber=1
+T 200 1050 5 8 0 1 0 8 1
+pinseq=1
+T 350 1100 9 8 1 1 0 0 1
+pinlabel=CLK
+T 350 1100 5 8 0 1 0 2 1
+pintype=clk
+}
+P 0 500 300 500 1 0 0
+{
+T 200 550 5 8 1 1 0 6 1
+pinnumber=3
+T 200 450 5 8 0 1 0 8 1
+pinseq=3
+T 350 500 9 8 1 1 0 0 1
+pinlabel=\_Q
+T 350 500 5 8 0 1 0 2 1
+pintype=out
+}
+P 1600 500 1300 500 1 0 0
+{
+T 1400 550 5 8 1 1 0 0 1
+pinnumber=6
+T 1400 450 5 8 0 1 0 2 1
+pinseq=6
+T 1250 500 9 8 1 1 0 6 1
+pinlabel=\_CLR
+T 1250 500 5 8 0 1 0 8 1
+pintype=io
+}
+P 1600 200 1300 200 1 0 0
+{
+T 1400 250 5 8 1 1 0 0 1
+pinnumber=5
+T 1400 150 5 8 0 1 0 2 1
+pinseq=5
+T 1250 200 9 8 1 1 0 6 1
+pinlabel=Q
+T 1250 200 5 8 0 1 0 8 1
+pintype=out
+}
+P 0 200 300 200 1 0 0
+{
+T 200 250 5 8 1 1 0 6 1
+pinnumber=4
+T 200 150 5 8 1 1 0 8 1
+pinseq=4
+T 350 200 9 8 1 1 0 0 1
+pinlabel=GND
+T 350 200 5 8 0 1 0 2 1
+pintype=pwr
+}
+B 300 0 1000 1300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1500 1400 8 10 1 1 0 6 1
+refdes=U?
+T 300 1300 5 10 1 1 0 0 1
+device=TPS54302
+T 400 2600 5 10 0 0 0 0 1
+author=r. miloh alexander
+T 400 2800 5 10 0 0 0 0 1
+documentation=TI
+T 400 3000 5 10 0 0 0 0 1
+description=Single Postiive Edge Triggered D-Type Flip Flop with Clear and Preset
+T 400 3200 5 10 0 0 0 0 1
+numslots=0
+P 0 800 300 800 1 0 0
+{
+T 200 850 5 8 1 1 0 6 1
+pinnumber=2
+T 200 750 5 8 0 1 0 8 1
+pinseq=2
+T 350 800 9 8 1 1 0 0 1
+pinlabel=D
+T 350 800 5 8 0 1 0 2 1
+pintype=in
+}
+P 1600 800 1300 800 1 0 0
+{
+T 1400 850 5 8 1 1 0 0 1
+pinnumber=7
+T 1400 750 5 8 0 1 0 2 1
+pinseq=7
+T 1250 800 9 8 1 1 0 6 1
+pinlabel=\_PRE
+T 1250 800 5 8 0 1 0 8 1
+pintype=io
+}
+P 1600 1100 1300 1100 1 0 0
+{
+T 1400 1150 5 8 1 1 0 0 1
+pinnumber=8
+T 1400 1050 5 8 0 1 0 2 1
+pinseq=8
+T 1250 1100 9 8 1 1 0 6 1
+pinlabel=Vcc
+T 1250 1100 5 8 0 1 0 8 1
+pintype=pwr
+}
