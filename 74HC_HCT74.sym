@@ -16,7 +16,7 @@ P 0 1700 300 1700 1 0 0
 T 200 1750 5 8 1 1 0 6 1
 pinnumber=2
 T 200 1650 5 8 0 1 0 8 1
-pinseq=3
+pinseq=2
 T 350 1700 9 8 1 1 0 0 1
 pinlabel=1D
 T 350 1700 5 8 0 1 0 2 1
@@ -27,18 +27,18 @@ P 0 1400 300 1400 1 0 0
 T 200 1450 5 8 1 1 0 6 1
 pinnumber=3
 T 200 1350 5 8 0 1 0 8 1
-pinseq=5
+pinseq=3
 T 350 1400 9 8 1 1 0 0 1
 pinlabel=1CP
 T 350 1400 5 8 0 1 0 2 1
-pintype=in
+pintype=clk
 }
 P 0 1100 300 1100 1 0 0
 {
 T 200 1150 5 8 1 1 0 6 1
 pinnumber=4
 T 200 1050 5 8 0 1 0 8 1
-pinseq=9
+pinseq=4
 T 350 1100 9 8 1 1 0 0 1
 pinlabel=1\_S\_D
 T 350 1100 5 8 0 1 0 2 1
@@ -49,22 +49,22 @@ P 0 500 300 500 1 0 0
 T 200 550 5 8 1 1 0 6 1
 pinnumber=6
 T 200 450 5 8 0 1 0 8 1
-pinseq=13
+pinseq=6
 T 350 500 9 8 1 1 0 0 1
 pinlabel=1\_Q\_
 T 350 500 5 8 0 1 0 2 1
-pintype=in
+pintype=out
 }
 P 0 800 300 800 1 0 0
 {
 T 200 850 5 8 1 1 0 6 1
 pinnumber=5
 T 200 750 5 8 0 1 0 8 1
-pinseq=11
+pinseq=5
 T 350 800 9 8 1 1 0 0 1
 pinlabel=1Q
 T 350 800 5 8 0 1 0 2 1
-pintype=in
+pintype=out
 }
 P 2000 500 1700 500 1 0 0
 {
@@ -73,7 +73,7 @@ pinlabel=2Q
 T 1800 550 5 8 1 1 0 0 1
 pinnumber=9
 T 1800 450 5 8 0 1 0 2 1
-pinseq=12
+pinseq=9
 T 1650 500 5 8 0 1 0 8 1
 pintype=out
 }
@@ -95,9 +95,9 @@ pinlabel=2CP
 T 1800 1150 5 8 1 1 0 0 1
 pinnumber=11
 T 1800 1050 5 8 0 1 0 2 1
-pinseq=8
+pinseq=11
 T 1650 1100 5 8 0 1 0 8 1
-pintype=out
+pintype=clk
 }
 P 2000 1400 1700 1400 1 0 0
 {
@@ -106,9 +106,9 @@ pinlabel=2D
 T 1800 1450 5 8 1 1 0 0 1
 pinnumber=12
 T 1800 1350 5 8 0 1 0 2 1
-pinseq=6
+pinseq=12
 T 1650 1400 5 8 0 1 0 8 1
-pintype=out
+pintype=in
 }
 P 2000 1700 1700 1700 1 0 0
 {
@@ -117,9 +117,9 @@ pinlabel=2\_R\_D
 T 1800 1750 5 8 1 1 0 0 1
 pinnumber=13
 T 1800 1650 5 8 0 1 0 2 1
-pinseq=4
+pinseq=13
 T 1650 1700 5 8 0 1 0 8 1
-pintype=out
+pintype=in
 }
 P 2000 2000 1700 2000 1 0 0
 {
@@ -128,9 +128,9 @@ pinlabel=VCC
 T 1800 2050 5 8 1 1 0 0 1
 pinnumber=14
 T 1800 1950 5 8 0 1 0 2 1
-pinseq=2
+pinseq=14
 T 1650 2000 5 8 0 1 0 8 1
-pintype=out
+pintype=pwr
 }
 T 300 3150 5 10 0 0 0 0 1
 numslots=0
@@ -154,20 +154,20 @@ P 0 200 300 200 1 0 0
 T 200 250 5 8 1 1 0 6 1
 pinnumber=7
 T 200 150 5 8 0 1 0 8 1
-pinseq=13
+pinseq=7
 T 350 200 9 8 1 1 0 0 1
 pinlabel=GND
 T 350 200 5 8 0 1 0 2 1
-pintype=in
+pintype=pwr
 }
 P 2000 200 1700 200 1 0 0
 {
 T 1900 250 5 8 1 1 0 6 1
 pinnumber=8
 T 1800 150 5 8 0 1 0 2 1
-pinseq=13
+pinseq=8
 T 1650 200 9 8 1 1 0 6 1
 pinlabel=2\_Q\_
 T 1650 200 5 8 0 1 0 8 1
-pintype=in
+pintype=out
 }
