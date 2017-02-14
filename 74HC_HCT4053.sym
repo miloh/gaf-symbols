@@ -9,7 +9,7 @@ pinseq=1
 T 350 2200 9 8 1 1 0 0 1
 pinlabel=2Y1
 T 350 2200 5 8 0 1 0 2 1
-pintype=in
+pintype=io
 }
 P 0 1900 300 1900 1 0 0
 {
@@ -20,7 +20,7 @@ pinseq=2
 T 350 1900 9 8 1 1 0 0 1
 pinlabel=2Y0
 T 350 1900 5 8 0 1 0 2 1
-pintype=in
+pintype=io
 }
 P 0 1600 300 1600 1 0 0
 {
@@ -31,7 +31,7 @@ pinseq=3
 T 350 1600 9 8 1 1 0 0 1
 pinlabel=3Y1
 T 350 1600 5 8 0 1 0 2 1
-pintype=in
+pintype=io
 }
 P 0 1300 300 1300 1 0 0
 {
@@ -42,7 +42,7 @@ pinseq=4
 T 350 1300 9 8 1 1 0 0 1
 pinlabel=3Z
 T 350 1300 5 8 0 1 0 2 1
-pintype=in
+pintype=io
 }
 P 0 700 300 700 1 0 0
 {
@@ -64,7 +64,7 @@ pinseq=5
 T 350 1000 9 8 1 1 0 0 1
 pinlabel=3Y0
 T 350 1000 5 8 0 1 0 2 1
-pintype=in
+pintype=io
 }
 P 2000 700 1700 700 1 0 0
 {
@@ -75,7 +75,7 @@ pinnumber=11
 T 1800 650 5 8 0 1 0 2 1
 pinseq=11
 T 1650 700 5 8 0 1 0 8 1
-pintype=out
+pintype=in
 }
 P 2000 1000 1700 1000 1 0 0
 {
@@ -86,7 +86,7 @@ pinnumber=12
 T 1800 950 5 8 0 1 0 2 1
 pinseq=12
 T 1650 1000 5 8 0 1 0 8 1
-pintype=out
+pintype=io
 }
 P 2000 1300 1700 1300 1 0 0
 {
@@ -97,7 +97,7 @@ pinnumber=13
 T 1800 1250 5 8 0 1 0 2 1
 pinseq=13
 T 1650 1300 5 8 0 1 0 8 1
-pintype=out
+pintype=io
 }
 P 2000 1600 1700 1600 1 0 0
 {
@@ -108,7 +108,7 @@ pinnumber=14
 T 1800 1550 5 8 0 1 0 2 1
 pinseq=14
 T 1650 1600 5 8 0 1 0 8 1
-pintype=out
+pintype=io
 }
 P 2000 1900 1700 1900 1 0 0
 {
@@ -119,7 +119,7 @@ pinnumber=15
 T 1800 1850 5 8 0 1 0 2 1
 pinseq=15
 T 1650 1900 5 8 0 1 0 8 1
-pintype=out
+pintype=io
 }
 P 2000 2200 1700 2200 1 0 0
 {
@@ -130,7 +130,7 @@ pinnumber=16
 T 1800 2150 5 8 0 1 0 2 1
 pinseq=16
 T 1650 2200 5 8 0 1 0 8 1
-pintype=out
+pintype=pwr
 }
 T 300 3150 5 10 0 0 0 0 1
 numslots=0
@@ -158,7 +158,7 @@ pinseq=7
 T 350 400 9 8 1 1 0 0 1
 pinlabel=VEE
 T 350 400 5 8 0 1 0 2 1
-pintype=in
+pintype=pwr
 }
 P 0 100 300 100 1 0 0
 {
@@ -169,7 +169,7 @@ pinseq=8
 T 350 100 9 8 1 1 0 0 1
 pinlabel=GND
 T 350 100 5 8 0 1 0 2 1
-pintype=in
+pintype=pwr
 }
 P 2000 400 1700 400 1 0 0
 {
