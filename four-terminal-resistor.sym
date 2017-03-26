@@ -18,7 +18,7 @@ T 650 350 5 8 0 1 180 0 1
 pintype=pas
 }
 B 200 300 200 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-T 200 500 5 10 0 0 0 0 1
+T 600 1100 5 10 0 0 0 0 1
 device=RESISTOR
 T 700 700 8 10 1 1 180 0 1
 refdes=R?
@@ -40,3 +40,5 @@ pinlabel=3
 T -200 800 5 8 0 1 0 0 1
 pintype=pas
 }
+T 595 895 8 10 0 0 0 0 1
+footprint=1206-four-terminal.fp
